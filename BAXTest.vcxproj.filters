@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BaxReceiver\aes.c" />
+    <ClCompile Include="BaxReceiver\AsciiHex.c" />
+    <ClCompile Include="BaxReceiver\BaxRx.c" />
+    <ClCompile Include="BaxReceiver\BaxUtils.c" />
+    <ClCompile Include="BaxReceiver\Bitmap.c" />
+    <ClCompile Include="BaxReceiver\SlipUtils.c" />
+    <ClCompile Include="Common\Debug.c" />
+    <ClCompile Include="Common\Serial.c" />
+    <ClCompile Include="Common\Si44.c" />
+    <ClCompile Include="Common\Transport.c" />
+    <ClCompile Include="Common\UDP.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Si44_config.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BaxReceiver\aes.h" />
+    <ClInclude Include="BaxReceiver\AsciiHex.h" />
+    <ClInclude Include="BaxReceiver\BaxRx.h" />
+    <ClInclude Include="BaxReceiver\BaxUtils.h" />
+    <ClInclude Include="BaxReceiver\Bitmap.h" />
+    <ClInclude Include="BaxReceiver\Data.h" />
+    <ClInclude Include="BaxReceiver\SlipUtils.h" />
+    <ClInclude Include="Peripherals\Si44.h" />
+    <ClInclude Include="Common\Debug.h" />
+    <ClInclude Include="Common\Serial.h" />
+    <ClInclude Include="Common\Si44_config.h" />
+    <ClInclude Include="Common\UDP.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{0cec8f76-6551-4153-b084-08bdfbe32249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{2b8d665a-9c33-40bc-8f9f-c55a8cf4ecda}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

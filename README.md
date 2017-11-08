@@ -27,6 +27,7 @@ Explanation:
  * *-sS*             - Source: Serial Port
  * *-fE*             - Talk to the firmware in radio event format
  * *-eH*             - Expect output from firmware in Hexdecimal
+ * *-dCOM3*          - Read from serial port `COM3`. On linux this will usually be `/dev/ttyACM0`, or `/dev/cu.usbserial` on OSX
  * *-oF*             - Output to a file, rather than `stdout`
  * *-tDAT00000.BIN*  - The file to write to.
  * *-pPNDE*          - Filter to exclude packet types not matching these (default, see below)

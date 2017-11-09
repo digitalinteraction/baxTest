@@ -19,17 +19,18 @@ Running this software requires a number of things:
 ## Example Command
 
 ```
-./BAXTest -sS -fE -eH -dCOM3 -oF -tDAT00000.BIN -pPNDE -rIPF -iBAX_INFO.BIN -cBAX_SETUP.CFG
+./BAXTest -sS -fU -eH -dCOM3 -oF -tout.txt -pPNDE -rIPF -iBAX_INFO.BIN -cBAX_SETUP.CFG
 ```
 
 Explanation:
 
  * *-sS*             - Source: Serial Port
- * *-fE*             - Talk to the firmware in radio event format
+ * *-fU*             - Talk to the firmware in radio event format
  * *-eH*             - Expect output from firmware in Hexdecimal
  * *-dCOM3*          - Read from serial port `COM3`. On linux this will usually be `/dev/ttyACM0`, or `/dev/cu.usbserial` on OSX
  * *-oF*             - Output to a file, rather than `stdout`
- * *-tDAT00000.BIN*  - The file to write to.
+ * *-mC*             - Output as CSV formatted text
+ * *-tout.txt*       - The file to write to, `out.txt`.
  * *-pPNDE*          - Filter to exclude packet types not matching these (default, see below)
  * *-rIPF*           - Load, pair and add sensors (default, see below)
  * *-iBAX_INFO.BIN*  - Load and save pairing data from/to this file

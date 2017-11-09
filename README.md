@@ -25,7 +25,7 @@ Running this software requires a number of things:
 Explanation:
 
  * *-sS*             - Source: Serial Port
- * *-fU*             - Talk to the firmware in radio event format
+ * *-fU*             - Talk to the firmware in binary unit format
  * *-eH*             - Expect output from firmware in Hexdecimal
  * *-dCOM3*          - Read from serial port `COM3`. On linux this will usually be `/dev/ttyACM0`, or `/dev/cu.usbserial` on OSX
  * *-oF*             - Output to a file, rather than `stdout`
